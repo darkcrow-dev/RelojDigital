@@ -1,6 +1,7 @@
 from tkinter import *
 from time import strftime
 
+#reloj digital
 def actualizarReloj():
     hora_minutos.config(text = strftime("%H:%M"))
     segundos.config(text = strftime("%S"))
