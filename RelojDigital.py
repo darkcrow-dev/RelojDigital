@@ -7,6 +7,7 @@ def actualizarReloj():
     segundos.config(text = strftime("%S"))
     fecha.config(text = strftime("%A, %d/%m/%Y"))
     segundos.after(1000, actualizarReloj)
+    return
 
 ventana = Tk()
 ventana.title("Reloj digital")
